@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeleconsultationMM name="AToMS" xmlns:TeleconsultationMM="TeleconsultationMM">
+  <paramedic name="Socorrista">
+    <property type="OBSERVATION" screen="form" name="ParaForm01"><ehrReferences id="openEHR-EHR-OBSERVATION.blood_film.v1"/></property>
+    <property type="INSTRUCTION" screen="view" name="Paraview01"/>
+    <property type="ACTION" screen="view" name="Paraview2"><ehrReferences id="openEHR-EHR-ACTION.medication.v1"/></property> 
+  </paramedic>
+  <specialist name="Cardiologista">
+    <property type="OBSERVATION" screen="view" name="SpecView01"><ehrReferences id="openEHR-EHR-OBSERVATION.blood_pressure.v1"/><ehrReferences id="openEHR-EHR-OBSERVATION.heart_rate.v1"/></property>
+    <property type="INSTRUCTION" screen="form" name="SpecForm01"><ehrReferences id="openEHR-EHR-INSTRUCTION.intravenous_fluid_order.v1draft"/><ehrReferences id="openEHR-EHR-INSTRUCTION.monitoring.v1draft"/></property> 
+  </specialist>
+</TeleconsultationMM>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeleconsultationMM xmlns:TeleconsultationMM="TeleconsultationMM" name="AToMS">
+  <paramedic name="Socorrista" >
+    <property type="OBSERVATION" screen="form" name="ParaForm01"/>
+    <property type="INSTRUCTION" screen="view" name="Paraview01"/>
+    <property type="ACTION" screen="view" name="Paraview2"/> 
+  </paramedic>
+  <specialist name="Cardiologista">
+    <property type="OBSERVATION" screen="view" name="SpecView01"/>
+    <property type="INSTRUCTION" screen="form" name="SpecForm01"/> 
+  </specialist>
+</TeleconsultationMM>
